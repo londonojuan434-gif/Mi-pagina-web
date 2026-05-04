@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnchilAcid Xplod</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff7f2;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff3131, #ff914d);
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: white;
+      color: #ff3131;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffe0d1;
+    }
+
+    nav {
+      background: #b30000;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      padding: 15px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ffd166;
+    }
+
+    section {
+      padding: 70px 10%;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.3rem;
+      color: #ff3131;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #ff3131;
+      margin-bottom: 12px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #b30000;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 50px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EnchilAcid Xplod</h1>
+    <p>"Atrévete a probarlo y que explote en tu boca"</p>
+    <a href="#productos" class="btn">Ver Productos</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#mision">Misión</a></li>
+      <li><a href="#vision">Visión</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#equipo">Equipo</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="nosotros">
+    <h2 class="title">¿Quiénes Somos?</h2>
+
+    <div class="about">
+      <div>
+        <p>
+          EnchilAcid Xplod S.A.S es un emprendimiento innovador dedicado a la elaboración y comercialización de gomitas enchiladas con sabores dulces, ácidos y picantes.
+          Nuestro objetivo es brindar una experiencia única y divertida a través de productos llamativos, personalizables y de excelente calidad.
+        </p>
+
+        <br>
+
+        <p>
+          Nos enfocamos en el público juvenil utilizando estrategias digitales, redes sociales y presentaciones modernas que convierten cada producto en una experiencia visual y sensorial.
+        </p>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?q=80&w=1200&auto=format&fit=crop" alt="Gomitas enchiladas">
+    </div>
+  </section>
+
+  <section id="mision">
+    <h2 class="title">Nuestra Misión</h2>
+
+    <div class="card">
+      <p>
+        Ofrecer a nuestros consumidores una experiencia única a través de sabores dulces y picantes de alta calidad,
+        creando momentos memorables, satisfaciendo el paladar y garantizando innovación y una presentación atractiva
+        en cada uno de nuestros productos.
+      </p>
+    </div>
+  </section>
+
+  <section id="vision">
+    <h2 class="title">Nuestra Visión</h2>
+
+    <div class="card">
+      <p>
+        Posicionarnos en el 2027 como una marca reconocida a nivel local y regional,
+        destacándonos por la calidad, innovación y variedad de nuestros productos,
+        convirtiéndonos en una compañía centrada en el cliente.
+      </p>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2 class="title">Nuestros Productos</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Gomitas Enchiladas</h3>
+        <p>Gomitas con mezcla de tajín, limón y chamoy con explosión de sabor.</p>
+      </div>
+
+      <div class="card">
+        <h3>Vasos de 9 Onzas</h3>
+        <p>Presentación completa con frutas, toppings y gomitas variadas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Toppings Especiales</h3>
+        <p>Oka loka, revolcón, mango, piña y manzana verde.</p>
+      </div>
+
+      <div class="card">
+        <h3>Extras</h3>
+        <p>Chamoy, tajín y limón adicional para personalizar tu snack.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Factores Innovadores</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Sabores Únicos</h3>
+        <p>Combinamos dulce, ácido y picante en un solo producto.</p>
+      </div>
+
+      <div class="card">
+        <h3>Personalización</h3>
+        <p>El cliente puede crear su mezcla ideal con toppings y extras.</p>
+      </div>
+
+      <div class="card">
+        <h3>Diseño Moderno</h3>
+        <p>Empaques llamativos ideales para redes sociales y contenido visual.</p>
+      </div>
+
+      <div class="card">
+        <h3>Experiencia Sensorial</h3>
+        <p>Más que un snack, ofrecemos diversión, sabor y emoción.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="equipo">
+    <h2 class="title">Nuestro Equipo</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Dairo Alexis García Galvis</h3>
+        <p>Gerente general y líder estratégico de la empresa.</p>
+      </div>
+
+      <div class="card">
+        <h3>Juan Diego Carrión Londoño</h3>
+        <p>Área operativa y control de calidad en producción.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sneider Espinosa Rincón</h3>
+        <p>Área de comercialización y redes sociales.</p>
+      </div>
+
+      <div class="card">
+        <h3>Diana Castro Morales</h3>
+        <p>Área administrativa y gestión de recursos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Valores Corporativos</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Excelencia</h3>
+        <p>Garantizamos calidad, frescura y excelente presentación.</p>
+      </div>
+
+      <div class="card">
+        <h3>Innovación</h3>
+        <p>Creamos experiencias originales con sabores diferentes.</p>
+      </div>
+
+      <div class="card">
+        <h3>Compromiso</h3>
+        <p>Escuchamos y respondemos a las necesidades del cliente.</p>
+      </div>
+
+      <div class="card">
+        <h3>Trabajo en Equipo</h3>
+        <p>Promovemos la colaboración y el respeto entre todos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2 class="title">Contacto</h2>
+
+    <div class="card">
+      <p><strong>Empresa:</strong> EnchilAcid Xplod S.A.S</p>
+      <p><strong>NIT:</strong> 901.456.782-3</p>
+      <p><strong>Ubicación:</strong> Villavicencio, Colombia</p>
+      <p><strong>Canales de venta:</strong> Redes sociales, eventos y venta directa.</p>
+      <p><strong>Pagos:</strong> Nequi y Daviplata.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 EnchilAcid Xplod S.A.S - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
